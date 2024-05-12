@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.menu {
+  width: 21%;
+  height: 100vh;
+  border-right: 1.5px solid rgb(235, 235, 235);
+  box-shadow: 0 0 2px rgba(240, 240, 240, 0.3);
+}
+
+.dash-body {
+  width: 79%;
+  height: 100vh;
+}
+
+.profile-title,
+.profile-subtitle {
+  font-weight: 400;
+  color: #161c2d;
+  font-size: 15px;
+  margin: 0;
+  padding-left: 8%;
+}
+
+.profile-title {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.profile-subtitle {
+  color: #8492a6;
+  font-size: 15px;
+}
+
+.logout-btn {
+  margin-top: 30px;
+  width: 85%;
+}
+
+.profile-container {
+  border-bottom: 1.5px solid rgb(235, 235, 235);
+  padding: 18% 0 12%; /* top, right/left, bottom */
+  text-align: center;
+}
+
+.heading-main12 {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.heading-sub12 {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: right;
+}
+
+.header-search {
+  display: flex;
+  justify-content: center;
+}
+
+.header-searchbar {
+  width: 75%;
+  background-color: rgba(255, 255, 255, 0.705);
+  border: 0.5px solid rgba(190, 190, 190, 0.884);
+}
+
+.add-doc-form-container {
+  padding: 25px;
+  margin-top: 30px;
+}

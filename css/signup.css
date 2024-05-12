@@ -1,0 +1,69 @@
+body {
+    margin: 2%;
+    background-color: #1e1e1e; /* Dark background color */
+}
+
+body {
+    background-image: url(../img/bg01.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.container {
+    width: 45%;
+    background-color: #333; /* Darker background color */
+    color: white; /* Light text color */
+    border: 1px solid #555; /* Darker border color */
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3); /* Darker shadow */
+    animation: transitionIn-Y-over 0.5s;
+}
+
+td {
+    text-align: center;
+}
+
+.header-text {
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+}
+
+.sub-text {
+    font-size: 15px;
+    color: #aaa; /* Dimmed text color */
+}
+
+.form-label {
+    color: #4d4747; /* Lighter text color */
+    text-align: left;
+    font-size: 14px;
+}
+
+.label-td {
+    text-align: left;
+    padding-top: 10px;
+}
+
+.hover-link1 {
+    font-weight: bold;
+    color: wheat;
+}
+
+.hover-link1:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+
+}
+
+.login-btn {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    
+}
